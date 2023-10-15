@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    text-align: center;
+    min-height: 100vh;
+}
+
+header  {
+height: 15vb;
+width: 100%;
+background-color: rgb(185, 235, 152);
+color:rgb(123, 100, 73);
+font-family: 'Courier New', Courier, monospace;
+font-size:xx-large;
+position: fixed;
+top: 0;
+z-index: 5;
+}
+
+
+nav {
+    display: flex;
+   
+}
+
+ ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin:auto;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: 2vw;
+    white-space: nowrap;
+}
+
+ a {
+    display: flex;
+    text-decoration: none;
+    margin: 30px;
+    padding:10px;
+    background-color: rgb(95, 120, 38);
+    color: #f0ecec;  
+}
+
+a:hover {
+    background-color: rgb(253, 212, 138);
+    color:black;
+    font-size: 45px;
+    
+}
+
+#formGenderName {
+    display: flex;
+    display: block;
+    padding: 120px;
+   
+}
+
+.contentText {
+    display: flex;
+    flex-direction: column;
+    display: block;
+    padding: 140px 10px;
+   
+}
+
+#outputText {
+    
+    margin: 300px ;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.textContact {
+    
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: #323131;
+
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    min-width: 50px;
+    padding: 10px;
+    margin:15px auto;
+    display: block;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(72, 163, 72);
+    
+}
+
+.link:hover {
+background-color: rgb(142, 160, 118);
+font-size: medium;
+}
+
+
+p1 {
+    color: #353030;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+#textName {
+display: flex;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+font-size: 24px;
+margin: 30px 5px;
+padding: 20px;
+background-color: rgb(253, 236, 213);
+}
+
+#influenceName {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    margin: 30px 5px;
+    padding: 20px;
+    background-color: rgb(253, 236, 213);
+    }
+
+    
+    #semanticsName {
+        display: flex;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        font-size: 24px;
+        margin: 30px 5px;
+        padding: 20px;
+        background-color: rgb(253, 236, 213);
+    }
+
+    #name{
+        display: flex;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        font-size: 24px;
+        margin: 30px 5px;
+        padding: 20px;
+        background-color: rgb(253, 236, 213);
+    }
+    
+
+    #nameList {
+        list-style: none;
+        padding: 50px;
+        box-sizing: border-box;
+        border: 3px solid rgb(57, 54, 54);
+         white-space: pre-line;
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        background-color:rgb(193, 144, 87);
+        margin:100px auto;
+        width: 50%;
+        text-align: center;
+        display: block;   
+      }
+
+      footer a {
+        transition: color 0.3s ease;
+
+      }
+
+
+      footer {
+        position:fixed;
+       
+        left: 0px;
+        bottom: 0px;
+        height: 15vh;
+        width: 100%;
+        background-color: rgb(154, 130, 101);
+        text-align: center;
+        z-index: -3;
+    
+
+      }
+      .contactLinks {
+        display: flex;
+       justify-content: center;
+       
+      }
+
+      .contactLinks:hover {
+        font-size: 25px;
+      }
+
+    .loader {
+        width: 48px;
+        height: 48px;
+        border: 5px solid #FFF;
+        border-bottom-color: rgb(81, 60, 47);
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        animation: rotation 0.7s linear infinite;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+
+      @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+        }
+      
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      @media only screen and (max-width: 390px) {
+        .textContact {
+            display: flex;
+            justify-content:center;
+            font-size: medium;
+        }
+        .contactLinks {
+            flex-direction: column;
+            align-items: center;
+            font-size: small;
+            padding: 30px;
+        }
+    
+       ul {
+        padding: 20px;
+       }
+
+       h3 {
+        display: flex;
+        justify-content:center;
+            font-size: medium;
+       }
+
+       p1 {
+        display: flex;
+        justify-content:center;
+            font-size: medium;
+
+       }
+       .link {
+        display: flex;
+        align-items:center;
+            font-size: medium;
+            margin: 10px auto;
+       }
+       .userCard {
+        display: flex;
+        flex-direction: row;
+        
+       }
+      }
+
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+       justify-content:flex-start;
+       margin: 15px;
+      }
+
+      .cardInfo {
+        display: flex; 
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+      }
+    
+      .cardInfo img {
+        max-width: 100%;
+          
+    }
+
+      .userCard {
+        flex: 1 0 20%; 
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box; 
+        margin: 10px;
+        border: 2px solid burlywood;
+        background-color: antiquewhite;
+      }
+
+
+      h1 {
+       font-size: 15px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+       display: flex;
+       box-sizing: border-box;  
+       justify-content: center;    
+      }
